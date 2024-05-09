@@ -1,0 +1,68 @@
+/* Styles for the clock and actions */
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.clock {
+    font-size: 36px;
+}
+
+.actions {
+    margin-bottom: 20px;
+}
+
+.actions button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.actions button:hover {
+    background-color: #45a049;
+}
+
+/* Styles for the alarms */
+.alarm-list {
+    margin-top: 20px;
+}
+
+#alarms {
+    list-style: none;
+    padding: 0;
+}
+
+.alarm-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.alarm-item button {
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 6px 10px;
+    cursor: pointer;
+}
+
+.alarm-item button:hover {
+    background-color: #d32f2f;
+}
